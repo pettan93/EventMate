@@ -1,0 +1,248 @@
+<resources>
+	<string name="app_name">EventMate</string>
+	<string name="tab_inbox">Inbox</string>
+	<string name="tab_events">My events</string>
+	<string name="tab_profile">My profile</string>
+	<string name="hint_email">Email</string>
+	<string name="hint_password">Password</string>
+	<string name="mgs_welcome">Happy to see you again</string>
+	<string name="btn_login">Login</string>
+	<string name="btn_facebook">Facebook</string>
+	<string name="btn_google">Google</string>
+	<string name="tv_no_account">No account yet? <b>Create one</b></string>
+	<string name="tv_forgotten_password">Forgotten password?</string>
+	<string name="hint_name">Name</string>
+	<string name="btn_signup">Sign up</string>
+	<string name="msg_give_info_you">Give us info about you</string>
+	<string name="title_my_events">My events</string>
+	<string name="hint_repeat_password">Repeat password</string>
+	<string name="hint_search">Search</string>
+	<string name="tv_no_events">No events</string>
+	<string name="event_owner">Event owner</string>
+	<string name="event_guest">Event guest</string>
+	<string name="event_status_editable">Editable</string>
+	<string name="event_status_ready_to_play">Ready to play</string>
+	<string name="event_status_in_play">In play</string>
+	<string name="event_status_evaluation">Evaluation</string>
+	<string name="event_status_finished">Finished</string>
+	<string name="event_status_undefined">Undefined</string>
+	<string name="who">Who</string>
+	<string name="event_status">Event status</string>
+	<string name="btn_confirm">Confirm</string>
+	<string name="title_select_filters">Select filters</string>
+	<string name="error_invalid_email">Invalid email address</string>
+	<string name="error_required_field">This field is required</string>
+	<string name="error_password_not_equal">Passwords don\'t match</string>
+	<string name="error_invalid_password">Password must be at least 6 characters</string>
+	<string name="mgs_congrats">Congrats</string>
+	<string name="tv_organized_events">organized events</string>
+	<string name="tv_attended_events">attended events</string>
+	<string name="tv_earned_points">earned points</string>
+	<string name="settings">Settings</string>
+	<string name="game_rank">Game rank</string>
+	<string name="help">Help</string>
+	<string name="logout">Log out</string>
+	<string name="title_activity_settings">Settings</string>
+	
+	<!-- Strings related to Settings -->
+	
+	<!-- Example General settings -->
+	<string name="pref_header_general">General</string>
+	
+	<string name="pref_title_social_recommendations">Enable social recommendations</string>
+	<string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
+		history
+	</string>
+	
+	<string name="pref_title_display_name">Display name</string>
+	<string name="pref_default_display_name">John Smith</string>
+	
+	<string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+	<string-array name="pref_example_list_titles">
+		<item>Always</item>
+		<item>When possible</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="pref_example_list_values">
+		<item>1</item>
+		<item>0</item>
+		<item>-1</item>
+	</string-array>
+	
+	<!-- Example settings for Data & Sync -->
+	<string name="pref_header_data_sync">Data &amp; sync</string>
+	
+	<string name="pref_title_sync_frequency">Sync frequency</string>
+	<string-array name="pref_sync_frequency_titles">
+		<item>15 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>3 hours</item>
+		<item>6 hours</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="pref_sync_frequency_values">
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>180</item>
+		<item>360</item>
+		<item>-1</item>
+	</string-array>
+	
+	<string-array name="list_preference_entries">
+		<item>Entry 1</item>
+		<item>Entry 2</item>
+		<item>Entry 3</item>
+	</string-array>
+	
+	<string-array name="list_preference_entry_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+	<string-array name="multi_select_list_preference_default_value" />
+	
+	<string name="pref_title_system_sync_settings">System sync settings</string>
+	
+	<!-- Example settings for Notifications -->
+	<string name="pref_header_notifications">Notifications</string>
+	
+	<string name="pref_title_new_message_notifications">New message notifications</string>
+	
+	<string name="pref_title_ringtone">Ringtone</string>
+	<string name="pref_ringtone_silent">Silent</string>
+	
+	<string name="pref_title_vibrate">Vibrate</string>
+	<string name="filter">Filter</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="hint_event_name">Event name</string>
+	<string name="hint_date">Date</string>
+	<string name="hint_place">Place</string>
+	<string name="hint_guests">Guests</string>
+	<string name="btn_create_event">Create event</string>
+	<string name="msg_give_info">Give us more information</string>
+	<string name="choose_photo">Choose photo</string>
+	<string name="hint_time">Time</string>
+	<string name="error_future_time">Time should be in the future</string>
+	<string name="loading_error">Loading error</string>
+	<string name="retry">Retry</string>
+	<string name="error_create_event">Error occured while creating event</string>
+	<string name="empty_string">-</string>
+	<string name="hint_type_message">Type message</string>
+	<string name="tv_no_conversation">No conversations</string>
+	<string name="title_inbox">My conversation</string>
+	<string name="tv_no_messages">No messages</string>
+	<string name="success_event_created">Event has been created</string>
+	<string name="preferences_category_notifications">Notifications</string>
+	<string name="preferences_category_others">Others</string>
+	<string name="pref_title_pm">Private message</string>
+	<string name="pref_description_pm">Be notified when you get a private message</string>
+	<string name="pref_title_event_start">Event start</string>
+	<string name="pref_description_event_start">Be notified when an event is about to start</string>
+	<string name="pref_title_assign_points">Assign points</string>
+	<string name="pref_description_assign_points">Be notified when you should assign points to your friends</string>
+	<string name="pref_title_reset_score">Reset score</string>
+	<string name="pref_description_reset_score">It will reset your achieved score</string>
+	<string name="pref_description_ringtone">Choose rigntone</string>
+	<string name="pref_key_pm">notification_pm</string>
+	<string name="pref_key_gm">notification_gm</string>
+	<string name="pref_key_event_start">notification_event_start</string>
+	<string name="pref_key_assign_points">notification_assign_points</string>
+	<string name="pref_key_event_invitation">Event invitation</string>
+	<string name="pref_description_event_invitation">Be notified when your friend has invited to his event</string>
+	<string name="pref_title_event_invitation">Event invitation</string>
+	<string name="pref_key_reset_score">reset_score</string>
+	<string name="delete">Delete</string>
+	<string name="event_item_removed">Event %1$s successfully removed</string>
+	<string name="undo">undo</string>
+	<string name="title_activity_new_task">NewTaskActivity</string>
+	<string name="btn_create_task">Save task</string>
+	<string name="hint_task_name">Task name</string>
+	<string name="hint_points">Points</string>
+	<string name="hint_asigness">Asigness</string>
+	<string name="hint_description">Description</string>
+	<string name="hint_task_time">Task time</string>
+	<string name="msg_task_info">What\'s this task about?</string>
+	
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="tasks_tab_title">Tasks</string>
+	<string name="guests_tab_title">Guests</string>
+	<string name="edit">Edit</string>
+	<string name="tv_no_tasks">No tasks</string>
+	<string name="success_task_created">Task created</string>
+	<string name="tv_no_guests">No guests</string>
+	<string name="title_description">Description</string>
+	<string name="title_time_limit">Time limit</string>
+	<string name="title_location">Location</string>
+	<string name="title_points">Points</string>
+	<string name="title_assigness">Assigness</string>
+	<string name="tv_no_assignee">No assignee</string>
+	<string name="success_sign_up">Successful sign up</string>
+	<string name="tv_no_reports">No reports</string>
+	<string name="name">Name</string>
+	<string name="msg_time_assign_points">It\'s time to assign points</string>
+	<string name="title_delete">Delete action</string>
+	<string name="message_wish_delete">Do you really want to delete this?</string>
+	<string name="active_filters">Active filters</string>
+	<string name="share">Share</string>
+	<string name="download">Download</string>
+	<string name="msg_report_marker">Event report design</string>
+	<string name="hint_report_name">Report name</string>
+	<string name="hint_report_comment">Your comment</string>
+	<string name="btn_generate_report">Generate report</string>
+	<string name="category">Category</string>
+	<string name="full_report">Full summary</string>
+	<string name="certificate">Certificate</string>
+	<string name="display_options">Display options</string>
+	<string name="show_event_info">Show <b><font fgcolor='#064f68'>event information</font></b></string>
+	<string name="display_guests">Display <b><font fgcolor='#064f68'>guests</font></b></string>
+	<string name="include_tasks">Include <b><font fgcolor='#064f68'>tasks</font></b></string>
+	<string name="event_date">Event date</string>
+	<string name="event_place">Event place</string>
+	<string name="report_creator">Report creator</string>
+	<string name="report_created_date">Report created date</string>
+	<string name="mgs_report_info">WHAT INFORMATION WOULD YOU LIKE TO INCLUDE?</string>
+	<string name="msg_report_guests">WHO WILL BE IN YOUR REPORT?</string>
+	<string name="msg_report_tasks">WHICH TASKS WOULD YOU LIKE TO INCLUDE?</string>
+	<string name="tv_no_submission">No submission file</string>
+	<string name="take_photo">Take photo</string>
+	<string name="record_video">Record video</string>
+	<string name="record_audio">Record audio</string>
+	<string name="msg_submission">New submission</string>
+	<string name="hint_submission_name">Submission name</string>
+	<string name="hint_submission_comment">Your comment</string>
+	<string name="btn_send_submission">Send submission</string>
+	<string name="camera_audio_permission_msg">\"Both camera and audio permission are needed to take pictures of your submissions</string>
+	<string name="camera_audio_permission_title"><![CDATA[Camera & audio permission]]></string>
+	<string name="needed_camera_permission">Camera and audio access is needed to take pictures of submissions</string>
+	<string name="assignee_submission">Task submissions of</string>
+	<string name="photo_proof">Photo proof</string>
+	<string name="video_proof">Video proof</string>
+	<string name="audio_proof">Audio proof</string>
+	<string name="view">View</string>
+	<string name="error_uploading_data">Error occurred during loading. Please try it again</string>
+	<string name="success_file_uploaded">Successfully submission file uploaded</string>
+	<string name="error_user_not_report_creator">We\'re sorry you don\'t have permission to manipulate with the report.</string>
+	<string name="success_report_create">Succesfully created report</string>
+	<string name="msg_share_reports">Who will get this report?</string>
+	<string name="hint_mail_subject">Email subject</string>
+	<string name="hint_mail_text">Email text</string>
+	<string name="existing_users">Existing users</string>
+	<string name="mgs_invite_guests">Who do you want to invite?</string>
+	<string name="via_email">Invitation via email</string>
+	<string name="event_invitation">Event invitation</string>
+	<string name="hint_emails">Type in recipients emails</string>
+	<string name="invite_event_guests">Invite event guests</string>
+	<string name="choose_assigness">Choose task assigness</string>
+	<string name="mgs_pick_assignee">Choose task assignees</string>
+	<string name="btn_add_task">Add task</string>
+	<string name="btn_add_guests">Add guests</string>
+	<string name="event_locked">Event has been locked for edit</string>
+	<string name="event_started">Event has been started successfully</string>
+	<string name="event_stopped">Event has been stopped</string>
+	<string name="event_evaluated">Event is ready to be evaluated</string>
+	<string name="event_summary_requested">Event summary is ready to be seen</string>
+</resources>
